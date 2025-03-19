@@ -35,7 +35,7 @@ const Footer = () => {
                         <PhoneOutlined color='#404d53' className='animate'/>  +33605044276 <p>(Janis Lasmanis)</p>
                     </a>
                     <a href="https://wa.me/+33605044276">
-                        <img src="public/assets/whatsapp-color-svgrepo-com.svg" alt="" className='wats animate'/>   +33605044276 <p>(Janis Lasmanis)</p>
+                        <img src="/whatsapp-color-svgrepo-com.svg" alt="" className='wats animate'/>   +33605044276 <p>(Janis Lasmanis)</p>
                     </a>
                 </div>
 
