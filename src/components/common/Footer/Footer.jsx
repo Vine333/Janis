@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import styled from "styled-components";
 import {PhoneOutlined} from "@ant-design/icons";
 import {gsap} from "gsap";
-import Logo from '/src/assets/icons.svg'
+import Logo from '/public/assets/icons.svg'
 const Footer = () => {
 
     useEffect(()=>{
@@ -35,7 +35,7 @@ const Footer = () => {
                         <PhoneOutlined color='#404d53' className='animate'/>  +33605044276 <p>(Janis Lasmanis)</p>
                     </a>
                     <a href="https://wa.me/+33605044276">
-                        <img src="src/assets/whatsapp-color-svgrepo-com.svg" alt="" className='wats animate'/>   +33605044276 <p>(Janis Lasmanis)</p>
+                        <img src="public/assets/whatsapp-color-svgrepo-com.svg" alt="" className='wats animate'/>   +33605044276 <p>(Janis Lasmanis)</p>
                     </a>
                 </div>
 

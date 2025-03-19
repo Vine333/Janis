@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import styled from "styled-components";
 import {PhoneOutlined} from "@ant-design/icons";
 import {gsap} from "gsap";
-import Logo from '/src/assets/icons.svg'
+import Logo from '/public/assets/icons.svg'
 
 const Header = () => {
 
@@ -15,8 +15,8 @@ useEffect(()=>{
                     scale:1,
                     rotationZ:0,
                     duration: 1,
-                    repeat: -1, // Бесконечный цикл
-                    yoyo: true, // Плавное возвращение к начальному состоянию
+                    repeat: -1,
+                    yoyo: true,
                     ease: "power2.inOut",
                 }
         );
@@ -36,7 +36,7 @@ useEffect(()=>{
                       <PhoneOutlined  className='animate' />  +33605044276 <p>(Janis Lasmanis)</p>
                     </a>
                     <a href="https://wa.me/+33605044276">
-                        <img src="src/assets/whatsapp-color-svgrepo-com.svg" alt="" className='wats animate'/>   +33605044276 <p>(Janis Lasmanis)</p>
+                        <img src="public/assets/whatsapp-color-svgrepo-com.svg" alt="" className='wats animate'/>   +33605044276 <p>(Janis Lasmanis)</p>
                     </a>
                 </div>
             </div>
@@ -63,6 +63,7 @@ const Wrapper = styled.div`
     color: white;
     font-size: 25px;
     font-family: Inter,sans-serif;
+    font-weight: normal;
     margin: 0;
     &:hover{
       scale: 105%;

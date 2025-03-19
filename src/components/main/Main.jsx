@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import videoSrc from '/src/assets/6474371-hd_1280_720_25fps.mp4'
+import videoSrc from '/public/assets/6474371-hd_1280_720_25fps.mp4'
 import AppLayout from "../../layouts";
 
 const Main = () => {
@@ -58,7 +58,7 @@ const Wrapper = styled.div`
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    background-image: url(/src/assets/download.svg);
+    background-image: url(/assets/download.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 60px;

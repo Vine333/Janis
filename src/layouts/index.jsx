@@ -3,7 +3,7 @@ import {Layout} from "antd";
 import styled from "styled-components";
 import Header from "../components/common/Header/Header.jsx";
 import Footer from "../components/common/Footer/Footer.jsx";
-import bacgroundL from '/src/assets/bg.jpg'
+import bacgroundL from '/public/assets/bg.jpg'
 
 
 const {Content} = Layout;

@@ -1,8 +1,8 @@
 import React, {useEffect, useRef} from 'react';
-import Shield from '/src/assets/shield-check-svgrepo-com.svg'
-import Handshake from '/src/assets/handshake-svgrepo-com.svg'
-import Time from '/src/assets/time-svgrepo-com.svg'
-import Quality from '/src/assets/quality-supervision-svgrepo-com.svg'
+import Shield from '/public/assets/shield-check-svgrepo-com.svg'
+import Handshake from '/public/assets/handshake-svgrepo-com.svg'
+import Time from '/public/assets/time-svgrepo-com.svg'
+import Quality from '/public/assets/quality-supervision-svgrepo-com.svg'
 
 import styled from "styled-components";
 import {gsap} from "gsap";
@@ -75,7 +75,7 @@ const Priorities = () => {
                         </div>
                     <div className='plus right-mid' ref={center2Ref}>
                         <div className='header'>
-                            <img src="src/assets/time-svgrepo-com.svg" width='50px' height='50px' alt=""/> Respect des délais
+                            <img src="public/assets/time-svgrepo-com.svg" width='50px' height='50px' alt=""/> Respect des délais
                         </div>
                         Nous comprenons que le temps de nos clients est précieux. Nous nous efforçons de respecter les délais et de livrer le projet à temps sans délai.
                         </div >
