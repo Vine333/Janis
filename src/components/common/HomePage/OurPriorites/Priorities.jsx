@@ -191,6 +191,7 @@ const Wrapper = styled.div`
     }
   }
   @media(max-width: 425px){
+    padding-top: 60px;
     .container{
       h2{
         font-size: 30px;
