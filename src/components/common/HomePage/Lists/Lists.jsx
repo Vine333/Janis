@@ -1,7 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import {Wrapper} from "./style.js";
-import Video from '/public/6474371-uhd_3840_2160_25fps (online-video-cutter.com).mp4'
-import Logo from '/public/icons.svg'
+import Video from '/6474371-uhd_3840_2160_25fps (online-video-cutter.com).mp4'
+import Logo from '/icons.svg'
 
 const Main = () => {
 

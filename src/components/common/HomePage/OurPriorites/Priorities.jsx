@@ -1,8 +1,8 @@
 import React, {useEffect, useRef} from 'react';
-import Shield from '/public/shield-check-svgrepo-com.svg'
-import Handshake from '/public/handshake-svgrepo-com.svg'
-import Time from '/public/time-svgrepo-com.svg'
-import Quality from '/public/quality-supervision-svgrepo-com.svg'
+import Shield from '/shield-check-svgrepo-com.svg'
+import Handshake from '/handshake-svgrepo-com.svg'
+import Time from '/time-svgrepo-com.svg'
+import Quality from '/quality-supervision-svgrepo-com.svg'
 
 import styled from "styled-components";
 import {gsap} from "gsap";
