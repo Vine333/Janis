@@ -1,0 +1,6 @@
+<svg id="visual" viewBox="0 0 960 540" width="960" height="540" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <path
+        d="M0 351L40 375.7C80 400.3 160 449.7 240 455.7C320 461.7 400 424.3 480 405.8C560 387.3 640 387.7 720 345.2C800 302.7 880 217.3 920 174.7L960 132L960 541L920 541C880 541 800 541 720 541C640 541 560 541 480 541C400 541 320 541 240 541C160 541 80 541 40 541L0 541Z"
+        fill="#F2F3F5" stroke-linecap="round" stroke-linejoin="miter"></path>
+</svg>

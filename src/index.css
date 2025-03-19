@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway&display=swap"');
+html{
+
+    background-attachment: scroll !important;
+}
+.btn{
+    width: 216px;
+    height: 50px;
+    border-radius: 60px;
+    transition: all .2s;
+    color: var(--text-color);
+    background: #d9b98f;
+    border: none;
+    padding: 10px 25px;
+
+}
+.btn span{
+    font-weight: 700 !important;
+    font-size:20px !important;
+}
+.btn:hover{
+    scale: 105%;
+    color: var(--text-color) !important;
+    background: #d9b98f!important;
+    border: none !important;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    background: var(--bacground-color);
+    min-height: 100vh;
+}
+
+#root {
+    --bacground-color: #b41b1b;
+    --text-color: #ffffff;
+    --secondary-txtColor:#515360;
+    --border-color:#9089ff;
+    --secondary-bg:#1c1f31;
+    width: 100%;
+
+}
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    line-height: 20px;
+}
