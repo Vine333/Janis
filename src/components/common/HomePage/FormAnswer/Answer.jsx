@@ -163,10 +163,10 @@ const Wrapper = styled.div`
       h2{
         font-size: 25px;
       }
-      width: 400px; ;
+      width: 95%; 
     }
     textarea{
-      width: 400px;
+      width: 95%;
     }
   }
   @media(max-width: 375px){
