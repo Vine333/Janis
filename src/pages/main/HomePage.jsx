@@ -1,7 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import styled from "styled-components";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import AppLayout from "../../layouts/index.jsx";
 import Main from "../../components/common/HomePage/Lists/Lists.jsx";
 import Priorities from "../../components/common/HomePage/OurPriorites/Priorities.jsx";

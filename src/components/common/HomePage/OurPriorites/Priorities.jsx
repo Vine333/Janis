@@ -28,7 +28,7 @@ const Priorities = () => {
 
         tl.from([leftBottomRef.current, rightBottomRef.current], {
             opacity: 0,
-            x: (i) => (i === 0 ? -100 : 100),
+            y: (i) => (i === 0 ? -50 : 50),
             duration: 1.3,
             ease: "power3.out",
 
@@ -143,7 +143,9 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: flex-start;
   }
-  
+  @media(max-width: 1440px){
+   padding-top: 250px;
+  }
   @media(min-width: 2560px){
     .container{
       max-width: 1940px;
