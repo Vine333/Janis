@@ -1,4 +1,8 @@
 import React, {useEffect, useRef} from 'react';
+import Shield from '/src/assets/shield-check-svgrepo-com.svg'
+import Handshake from '/src/assets/handshake-svgrepo-com.svg'
+import Time from '/src/assets/time-svgrepo-com.svg'
+import Quality from '/src/assets/quality-supervision-svgrepo-com.svg'
 
 import styled from "styled-components";
 import {gsap} from "gsap";
@@ -59,13 +63,13 @@ const Priorities = () => {
                 <div className='icons' >
                         <div className='plus left-side' ref={leftBottomRef}>
                            <div className='header'>
-                               <img src="src/assets/shield-check-svgrepo-com.svg" width='50px' height='50px' alt=""/>   Sérieux
+                               <img src={Shield} width='50px' height='50px' alt=""/>   Sérieux
                            </div>
                             Nous veillons à ce que nos clients aient confiance dans la qualité de nos services et dans notre capacité à répondre à leurs besoins.
                         </div>
                     <div className='plus left-mid' ref={center1Ref}>
                         <div className='header'>
-                            <img src="src/assets/handshake-svgrepo-com.svg" width='50px' height='50px' alt=""/> Responsabilité
+                            <img src={Handshake} width='50px' height='50px' alt=""/> Responsabilité
                         </div>
                         Cet aspect est essentiel pendant le processus de construction, et nous veillons à ce que tous les détails du projet soient pris en compte et planifiés à l’avance afin que nous puissions livrer le projet au plus haut niveau.
                         </div>
@@ -77,7 +81,7 @@ const Priorities = () => {
                         </div >
                     <div className="plus right-side" ref={rightBottomRef}>
                         <div className='header'>
-                            <img src="src/assets/quality-supervision-svgrepo-com.svg" width='50px' height='50px' alt=""/>Qualité
+                            <img src={Quality} width='50px' height='50px' alt=""/>Qualité
                         </div>
                         Nous nous efforçons de fournir à nos clients des réparations de haute qualité en utilisant des matériaux de la plus haute qualité et en travaillant avec des professionnels expérimentés.
                     </div>

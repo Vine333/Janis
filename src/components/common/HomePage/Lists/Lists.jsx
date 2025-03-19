@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import {Wrapper} from "./style.js";
-
+import Video from '/src/assets/6474371-uhd_3840_2160_25fps (online-video-cutter.com).mp4'
+import Logo from '/src/assets/icons.svg'
 
 const Main = () => {
 
@@ -10,7 +11,7 @@ const Main = () => {
 
         <Wrapper >
             <div className="wrapper_video">
-                <video src='src/assets/6474371-uhd_3840_2160_25fps (online-video-cutter.com).mp4' className='video' autoPlay loop playsInline
+                <video src={Video} className='video' autoPlay loop playsInline
                        muted/>
 
 
@@ -28,7 +29,7 @@ const Main = () => {
             </div>
             <div className='content'  >
                 <div className='head-mine' >
-                    <img src="src/assets/icons.svg" width='64px' height='64px' alt=""/>  <h1>SKORPER</h1>
+                    <img src={Logo} width='64px' height='64px' alt=""/>  <h1>SKORPER</h1>
                 </div>
                 <div >
                     <p>Nous sommes une équipe de pros qui crée des projets fiables et durables. Avec dix ans

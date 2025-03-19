@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import styled from "styled-components";
 import {PhoneOutlined} from "@ant-design/icons";
 import {gsap} from "gsap";
-
+import Logo from '/src/assets/icons.svg'
 
 const Header = () => {
 
@@ -27,7 +27,7 @@ useEffect(()=>{
             <div className="container">
 
                 <div className="logo">
-                    <img src="/src/assets/icons.svg" width='100px' height='100px' alt=""/>
+                    <img src={Logo} width='100px' height='100px' alt=""/>
                     <p>SKORPER</p>
                 </div>
 

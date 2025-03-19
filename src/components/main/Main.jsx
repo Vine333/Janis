@@ -65,7 +65,7 @@ const Wrapper = styled.div`
     position: relative;
     z-index: 2;
   }
-  
+
 
   .content {
     position: absolute;
@@ -87,7 +87,6 @@ const Wrapper = styled.div`
     margin-top: 10px;
   }
 
- 
 
   .wave {
     position: absolute;

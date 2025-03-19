@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import styled from "styled-components";
 import {PhoneOutlined} from "@ant-design/icons";
 import {gsap} from "gsap";
-
+import Logo from '/src/assets/icons.svg'
 const Footer = () => {
 
     useEffect(()=>{
@@ -26,7 +26,7 @@ const Footer = () => {
         <Wrapper>
             <div className="container">
                 <div className="logo">
-                    <img src="/src/assets/icons.svg" width='200px' height='200px' alt=""/>
+                    <img src={Logo} width='200px' height='200px' alt=""/>
                     <p>SKORPER</p>
                 </div>
 
