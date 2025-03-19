@@ -30,7 +30,7 @@ const HomePage = () => {
 const Wrapper = styled.div`
   width: 100%;
   padding-top: 150px;
-  // background-color: var(--background-color);
+ 
 `;
 
 export default HomePage;
