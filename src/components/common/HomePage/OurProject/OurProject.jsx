@@ -112,7 +112,7 @@ const OurProject = () => {
 };
 const Wrapper = styled.div`
   width: 100%;
-
+margin-top: 50px;
   .container {
     max-width: 1440px;
     margin: 0 auto;

@@ -136,6 +136,14 @@ const Wrapper = styled.div`
     }
   }
 }
+  @media(max-width: 1080px){
+    .form{
+      width: 1026px;
+    }
+    textarea{
+      width: 1026px;
+    }
+  }
   @media(max-width: 760px){
     .form{
      width: 700px;

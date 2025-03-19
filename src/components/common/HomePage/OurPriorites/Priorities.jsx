@@ -43,7 +43,7 @@ const Priorities = () => {
 
 
         gsap.to(sectionRef.current, {
-            
+
             duration: 1.7,
             scrollTrigger: {
                 trigger: sectionRef.current,
@@ -142,12 +142,8 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: flex-start;
   }
-  @media(max-width: 1080px){
-    padding-top: 100px !important;
-  }
-  @media(max-width: 1440px){
-   padding-top: 250px;
-  }
+  
+  
   @media(min-width: 2560px){
     .container{
       max-width: 1940px;
@@ -169,7 +165,12 @@ const Wrapper = styled.div`
     }
     padding-bottom: 150px;
   }
-  
+  @media(max-width: 1440px){
+    padding-top: 250px;
+  }
+  @media(max-width: 1080px){
+    padding-top: 100px ;
+  }
   @media(max-width: 1024px){
     .header{
       line-height: 27px;
