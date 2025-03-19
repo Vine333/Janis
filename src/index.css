@@ -3,6 +3,9 @@ html{
 
     background-attachment: scroll !important;
 }
+html::-webkit-scrollbar {
+    display: none;
+}
 .btn{
     width: 216px;
     height: 50px;

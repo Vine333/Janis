@@ -28,7 +28,7 @@ const Priorities = () => {
 
         tl.from([leftBottomRef.current, rightBottomRef.current], {
             opacity: 0,
-            y: (i) => (i === 0 ? -50 : 50),
+             y: (i) => (i === 0 ? -50 : 50),
             duration: 1.3,
             ease: "power3.out",
 
@@ -43,8 +43,7 @@ const Priorities = () => {
 
 
         gsap.to(sectionRef.current, {
-
-            y: -50,
+            
             duration: 1.7,
             scrollTrigger: {
                 trigger: sectionRef.current,
@@ -58,9 +57,9 @@ const Priorities = () => {
     }, []);
     return (
         <Wrapper >
-            <div className='container' ref={sectionRef}>
+            <div className='container' >
                 <h2 className='pourquoi'>Pourquoi nous ?</h2>
-                <div className='icons' >
+                <div className='icons' ref={sectionRef}>
                         <div className='plus left-side' ref={leftBottomRef}>
                            <div className='header'>
                                <img src={Shield} width='50px' height='50px' alt=""/>   Sérieux
@@ -142,6 +141,9 @@ const Wrapper = styled.div`
 
     align-items: center;
     justify-content: flex-start;
+  }
+  @media(max-width: 1080px){
+    padding-top: 100px !important;
   }
   @media(max-width: 1440px){
    padding-top: 250px;
