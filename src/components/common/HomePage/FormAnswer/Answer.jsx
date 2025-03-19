@@ -84,7 +84,7 @@ const Wrapper = styled.div`
     gap: 30px;
 
     input {
-      width: 900px;
+      width: 100%;
       background-color: #e8d0bc;
       height: 50px;
       color: #000000;
@@ -136,5 +136,46 @@ const Wrapper = styled.div`
     }
   }
 }
+  @media(max-width: 760px){
+    .form{
+     width: 700px;
+    }
+    
+  }
+  @media(max-width: 1024px){
+    .form{
+      width: 700px; ;
+    }
+    textarea{
+      width: 700px;
+    }
+  }
+  @media(max-width: 425px){
+    .form{
+      h2{
+        font-size: 25px;
+      }
+      width: 400px; ;
+    }
+    textarea{
+      width: 400px;
+    }
+  }
+  @media(max-width: 375px){
+    .form{
+      width: 350px; ;
+    }
+    textarea{
+      width: 350px;
+    }
+  }
+  @media(max-width: 320px){
+    .form{
+      width: 300px; ;
+    }
+    textarea{
+      width: 300px;
+    }
+  }
 `
 export default ContactForm;
