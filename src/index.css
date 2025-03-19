@@ -29,8 +29,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    display: flex;
-    place-items: center;
+    display: block;
     min-width: 320px;
     background: var(--bacground-color);
     min-height: 100vh;

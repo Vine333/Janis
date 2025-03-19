@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   padding-bottom: 100px;
   padding-left: 50px;
   display: flex;
-  overflow: hidden;
+
   .wrapper_video{
     overflow: hidden;
     position: absolute;
@@ -20,11 +20,11 @@ export const Wrapper = styled.div`
     z-index: 1;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+   
   }
   .video{
-    height: inherit;
-    width: inherit;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     margin: 0 auto;
   }
@@ -34,8 +34,8 @@ export const Wrapper = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Затемнение */
-    z-index: 2;
+    background: rgba(0, 0, 0, 0.3); /* Затемнение */
+    z-index: 10;
   }
   .wave {
     position: absolute;
@@ -54,9 +54,10 @@ export const Wrapper = styled.div`
   .content{
     text-align: left;
     max-width: 1440px;
+    min-width: 320px;
     width: 70%;
     margin: 0 auto;
-    z-index: 5;
+    z-index: 15;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;

@@ -12,7 +12,7 @@ const Main = () => {
         <Wrapper >
             <div className="wrapper_video">
                 <video src={Video} className='video' autoPlay loop playsInline
-                       muted/>
+                       muted />
 
 
             </div>
